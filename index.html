@@ -11,6 +11,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <!-- font poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <!-- using daisy UI -->
 
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -23,13 +29,17 @@
     .font-sora {
       font-family: "Sora", serif;
     }
+
+    .font-poppins {
+      font-family: "Poppins", serif;
+    }
   </style>
 </head>
 
 <body class="font-sora">
   <header class="py-6 px-5 border-b-2 border-green-500 lg:border-none">
     <!-- navbar -->
-    <div>
+    <div class="container p-5 mx-auto">
       <div class="flex items-center  justify-between">
         <!-- nav icon -->
         <div>
@@ -55,155 +65,356 @@
         <div class="lg:hidden text-3xl text-green-400">
           <i class="fa-solid fa-bars"></i>
         </div>
-      
+
       </div>
-      
-    
+    </div>
   </header>
   <section class="py-8 lg:py-24 bg-gradient-to-r from-white to-pink-50 ">
-
-    <!-- banner  -->
-    <!-- banner-content -->
-    <div class="text-center">
-      <h1 class="text-5xl font-semibold mb-8 ">Freshness <span class="text-green-500 ">You Can <br>
-          Count</span> On, Prices You’ll Love!</h1>
-      <p class="font-normal text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
-        staples, we’ve got you covered every day!</p>
-    </div>
-    <!-- banner-image -->
-
-
-    <div>
-      <img src="c2-assets/hero-vegetables.png" alt="">
-    </div>
-    <main class="max-w-screen-xl mx-auto ">
-  </section>
-  </div>
-  <!-- card -->
-  <section class="">
-    <h3 class="text-green-500 font-semibold text-4xl lg:text-4xl mt-32 mb-8">Services</h3>
-    <!-- card-container -->
-    <!-- card-1 -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
-      <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
-        <div class="avatar">
-          <div class="w-24 h-24
-          p-4 rounded-full bg-white">
-            <img src="c2-assets/service.png" alt="" class="">
-          </div>
-        </div>
-        <h3 class="font-semibold text-2xl pt-4">24/7 Services </h3>
-        <p class="font-light text-xl pt-2">refers to a customer service option where you can interact with a company or
-         
+    <div class="container p-5 mx-auto">
+      <!-- banner  -->
+      <!-- banner-content -->
+      <div class="text-center">
+        <h1 class="text-5xl font-semibold mb-8 ">Freshness <span class="text-green-500 ">You Can <br>
+            Count</span> On, Prices You’ll Love!</h1>
+        <p class="font-normal text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry
+          <br>
+          staples, we’ve got you covered every day!
         </p>
       </div>
-      <!-- card-2 -->
-      <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
-        <div class="avatar">
-          <div class="w-24 h-24 p-4 rounded-full bg-white">
-            <img src="c2-assets/delivery.png" alt="" class="">
-          </div>
-        </div>
-
-        <h3 class="font-semibold text-2xl pt-4">Fast Delivery</h3>
-        <p class="font-light text-xl pt-2">There are many reasons why SMS delivery notifications should be used. Customers
-         </p>
+      <!-- banner-image -->
+      <div>
+        <img src="c2-assets/hero-vegetables.png" alt="">
       </div>
-      <!-- card-3 -->
-      <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
-        <div class="avatar">
-          <div class="w-24 h-24 p-4 rounded-full bg-white">
-            <img src="c2-assets/healthy.png" alt="">
+    </div>
+  </section>
+  <!-- card -->
+  <section class="">
+    <div class="container p-5 mx-auto">
+      <h3 class="text-green-500 font-semibold text-4xl lg:text-4xl mt-32 mb-8">Services</h3>
+      <!-- card-container p-5 -->
+      <!-- card-1 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+        <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
+          <div class="avatar">
+            <div class="w-24 h-24
+        p-4 rounded-full bg-white">
+              <img src="c2-assets/service.png" alt="" class="">
+            </div>
           </div>
+          <h3 class="font-semibold text-2xl pt-4">24/7 Services </h3>
+          <p class="font-light text-xl pt-2">refers to a customer service option where you can interact with a company
+            or
+
+          </p>
         </div>
-        <h3 class="font-semibold text-2xl pt-4">Healthy Products </h3>
-        <p class="font-light text-xl pt-2">Health is not just the absence of disease, it's a state of complete physical,
-         </p>
+        <!-- card-2 -->
+        <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
+          <div class="avatar">
+            <div class="w-24 h-24 p-4 rounded-full bg-white">
+              <img src="c2-assets/delivery.png" alt="" class="">
+            </div>
+          </div>
+
+          <h3 class="font-semibold text-2xl pt-4">Fast Delivery</h3>
+          <p class="font-light text-xl pt-2">There are many reasons why SMS delivery notifications should be used.
+            Customers
+          </p>
+        </div>
+        <!-- card-3 -->
+        <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
+          <div class="avatar">
+            <div class="w-24 h-24 p-4 rounded-full bg-white">
+              <img src="c2-assets/healthy.png" alt="">
+            </div>
+          </div>
+          <h3 class="font-semibold text-2xl pt-4">Healthy Products </h3>
+          <p class="font-light text-xl pt-2">Health is not just the absence of disease, it's a state of complete
+            physical,
+          </p>
+        </div>
       </div>
     </div>
   </section>
   <!-- products section -->
-  <section class=" mb-24 grid grid-cols-1 ">
-    <h1 class="text-green-500 font-semibold text-3xl mt-32 mb-8">Popular Products</h1>
-    <div class="bg-gradient-to-r from-green-500 to-white rounded-lg shadow-md overflow-hidden ">
-      <div class="pl-8 pt-12">
-        <h2 class="text-white text-xl ">30% off</h2><br>
-        <p class="text-sm">Discover a world of treats,toys and <br> essentials handpicked for </p><br>
-        <button class=" bg-white py-2.5 px-7 rounded-lg ">Buy Now</button>
-      </div>
-      <div>
-        <img src="c2-assets/vegetable-offer.png" alt="" class="">
-      </div>
-    </div>
-    <!-- products card section -->
-    <div>
-      <!--  card img -->
-      <div>
-        <img src="c2-assets/image 43.png" alt="">
-      </div>
-      <!-- card-icon -->
-      <div>
-        <i class="fa-solid fa-star"></i>
-      </div>
-      <!-- card text -->
-      <div>
-        <h3>4.5</h3>
-        <p>Onion 1 KG</p>
-        <h4>$39.99</h4>
+  <section class=" py-24 bg-[#EFEBE3]  ">
+    <div class="container p-5 mx-auto">
+      <h2 class="text-green-500 font-semibold text-3xl mb-8">Popular Products</h2>
+      <div class="flex flex-col lg:flex-row gap-6 ">
+        <div class=" flex  bg-gradient-to-r from-green-500 to-white rounded-lg shadow-md overflow-hidden ">
+          <div class="pl-8 pt-12">
+            <h2 class="text-white text-xl ">30% off</h2><br>
+            <p class="text-sm">Discover a world of treats,toys and <br> essentials handpicked for </p><br>
+            <button class=" bg-white py-2.5 px-7 rounded-lg ">Buy Now</button>
+          </div>
+          <div class="flex items-end justify-end">
+            <img src="c2-assets/vegetable-offer.png" alt="" class="">
+          </div>
+        </div>
+        <!-- products card section -->
+        <!-- card-conteiner -->
+        <div class="grid grid-cols-2 lg:grid-cols-2 gap-4">
+          <div class="relative">
+            <div class="absolute items-center flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg ">
+              <!--  card img -->
+              <div class="mr-4">
+                <img src="c2-assets/Group 16 (2).png" alt="">
+              </div>
+              <!-- card-icon -->
+              <div class="flex gap-1">
+                <div class="text-[#FFC107]">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- card text -->
+                <div class="ml-2">
+                  <h3 class="text-xs">4.5</h3>
+                  <p class="text-xl">Onion 1 KG</p>
+                  <h4 class="text-xs">$39.99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="relative">
+            <div class=" flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg ">
+              <!--  card img -->
+              <div class="mr-4">
+                <img src="c2-assets/Group 16.png" alt="">
+              </div>
+              <!-- card-icon -->
+              <div class="flex gap-1">
+                <div class="text-[#FFC107]">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- card text -->
+                <div class="ml-2">
+                  <h3 class="text-xs">4.5</h3>
+                  <p class="text-xl">Tomato 500 g </p>
+                  <h4 class="text-xs">$39.99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="relative">
+            <div class=" flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg ">
+              <!--  card img -->
+              <div class="mr-4">
+                <img src="c2-assets/Group 16 (1).png" alt="">
+              </div>
+              <!-- card-icon -->
+              <div class="flex gap-1">
+                <div class="text-[#FFC107]">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- card text -->
+                <div class="ml-2">
+                  <h3 class="text-xs">4.5</h3>
+                  <p class="text-xl">Potato 1 KG</p>
+                  <h4 class="text-xs">$39.99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="relative">
+            <div class=" flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg ">
+              <!--  card img -->
+              <div class="mr-4">
+                <img src="c2-assets/Group 16 (2).png" alt="">
+              </div>
+              <!-- card-icon -->
+              <div class="flex gap-1">
+                <div class="text-[#FFC107]">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- card text -->
+                <div class="ml-2">
+                  <h3 class="text-xs">4.5</h3>
+                  <p class="text-xl">Onion 1 KG</p>
+                  <h4 class="text-xs">$39.99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="relative">
+            <div class=" flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg ">
+              <!--  card img -->
+              <div class="mr-4">
+                <img src="c2-assets/Group 16.png" alt="">
+              </div>
+              <!-- card-icon -->
+              <div class="flex gap-1">
+                <div class="text-[#FFC107]">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- card text -->
+                <div class="ml-2">
+                  <h3 class="text-xs">4.5</h3>
+                  <p class="text-xl">Tomato 500 g </p>
+                  <h4 class="text-xs">$39.99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="relative">
+            <div class=" flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg ">
+              <!--  card img -->
+              <div class="mr-4">
+                <img src="c2-assets/Group 16 (1).png" alt="">
+              </div>
+              <!-- card-icon -->
+              <div class="flex gap-1">
+                <div class="text-[#FFC107]">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- card text -->
+                <div class="ml-2">
+                  <h3 class="text-xs">4.5</h3>
+                  <p class="text-xl">Potato 1 KG</p>
+                  <h4 class="text-xs">$39.99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-7 -->
+          <div class="relative">
+            <div class=" flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg ">
+              <!--  card img -->
+              <div class="mr-4">
+                <img src="c2-assets/Group 16 (2).png" alt="">
+              </div>
+              <!-- card-icon -->
+              <div class="flex gap-1">
+                <div class="text-[#FFC107]">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- card text -->
+                <div class="ml-2">
+                  <h3 class="text-xs">4.5</h3>
+                  <p class="text-xl">Onion 1 KG</p>
+                  <h4 class="text-xs">$39.99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-8 -->
+          <div class="relative">
+            <div class=" flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg ">
+              <!--  card img -->
+              <div class="mr-4">
+                <img src="c2-assets/Group 16.png" alt="">
+              </div>
+              <!-- card-icon -->
+              <div class="flex gap-1">
+                <div class="text-[#FFC107]">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- card text -->
+                <div class="ml-2">
+                  <h3 class="text-xs">4.5</h3>
+                  <p class="text-xl">Tomato 500 g </p>
+                  <h4 class="text-xs">$39.99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-9 -->
+          <div class="relative">
+            <div class=" flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg ">
+              <!--  card img -->
+              <div class="mr-4">
+                <img src="c2-assets/Group 16 (1).png" alt="">
+              </div>
+              <!-- card-icon -->
+              <div class="flex gap-1">
+                <div class="text-[#FFC107]">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <!-- card text -->
+                <div class="ml-2">
+                  <h3 class="text-xs">4.5</h3>
+                  <p class="text-xl">Potato 1 KG</p>
+                  <h4 class="text-xs">$39.99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-
-  </main>
-  <!-- footer section -->
-  <footer>
-
-
-    <footer class="footer bg-green-500 text-white p-10">
-      <nav>
-        <img src="c2-assets/logo-footer.png" alt="">
-        <p class="text-2xl font-normal">Discover a world of treats, toys, and essentials handpicked for your furry
-          friends</p>
-      </nav>
-      <nav>
-        <h6 class="">products</h6>
-        <a class="">services</a>
-        <a class="">Contact us</a>
-      </nav>
-      <nav>
-        <h5 class="">Follow us</h5>
-        <img src="c2-assets/" alt="">
-        <div class="grid grid-flow-col gap-4">
-          <a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-              <path
-                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
-              </path>
-            </svg>
-          </a>
-          <a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-              <path
-                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
-              </path>
-            </svg>
-          </a>
-          <a>
-            <svg>
-
-
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              class="fill-current">
-              <path
-                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
-              </path>
-            </svg>
-          </a>
+  <!-- arrival section -->
+  <!-- arrival container p-5 -->
+  <div class="font-poppins">
+    <div class="container p-5 mx-auto ">
+      <h2 class="text-[#179800] font-semibold text-3xl mb-12">Arrival & Offers</h2>
+      <!-- arrival card -->
+      <!-- card-1 -->
+      <div class="flex flex-col lg:flex-row gap-5 justify-center mb-32">
+        <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-[#115414]  ">
+          <div class="flex">
+            <div class="">
+              <img src="c2-assets/dawat-logo.png" alt="">
+              <button
+                class="bg-[#63B76D] text-[#FFFFFF]text-xl font-semibold py-2.5 px-7 rounded-lg text-white font-normal mt-8 ">cook
+                Exotic Dishes</button>
+              <h3 class="font-bold text-4xl text-[#FFFFFF] mt-5">UP to 20% OFF </h3>
+            </div>
+            <div class="">
+              <img src="c2-assets/dawat-mock-up.png" alt="" class="">
+            </div>
+          </div>
         </div>
-      </nav>
-    </footer>
+        <!-- card-2 -->
+        <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-[#102861]  ">
+          <div class="flex">
+            <div class="">
+              <img src="c2-assets/india-gate-logo.png" alt="">
+              <button
+                class="bg-[#2A4D97] text-[#FFFFFF]text-xl font-semibold py-2.5 px-7 rounded-lg text-white font-normal mt-8 ">World’s
+                No.1 Rice</button>
+              <h3 class="font-bold text-4xl text-[#FFFFFF] mt-5">UP to 40% OFF </h3>
+            </div>
+            <div class="">
+              <img src="c2-assets/india-gate-mock-up.png" alt="" class="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- footer section -->
+  <footer class=" bg-green-500 text-white p-10">
+ <div class="container p-5 mx-auto footer lg:grid-cols-3">
+  <nav>
+    <img src="c2-assets/logo-footer.png" alt="">
+    <p class="text-2xl font-normal">Discover a world of treats, toys, and essentials handpicked for your furry
+      friends</p>
+  </nav>
+  <nav>
+    <h6 class="">products</h6>
+    <a class="">services</a>
+    <a class="">Contact us</a>
+  </nav>
+  <nav>
+    <h5 class="">Follow us</h5>
+    <img src="c2-assets/" alt="">
+    <div class="grid grid-flow-col gap-4">
+      <a>
+      </a>
+      <a>
+      </a>
+      <a>
+      </a>
+    </div>
+  </nav>
+ </div>
   </footer>
 </body>
 
