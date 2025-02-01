@@ -1,105 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-3</title>
-<!-- font sora -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<!-- using daisy UI -->
- 
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- font awesome -->
-<script src="https://kit.fontawesome.com/7e564616ca.js" crossorigin="anonymous"></script>
-<!-- tailwind css -->
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- tailwind config -->
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
-        }
-      }
-    }
-  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment-3</title>
+  <!-- font sora -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- using daisy UI -->
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/7e564616ca.js" crossorigin="anonymous"></script>
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <style>
-    .font-sora{
+    .font-sora {
       font-family: "Sora", serif;
     }
   </style>
 </head>
-<body class="font-sora" >
-  <main class="max-w-screen-xl mx-auto ">
+
+<body class="font-sora">
+  <header class="py-6 px-5 border-b-2 border-green-500 lg:border-none">
     <!-- navbar -->
-    <div class="bg-gradient-to-r from-white to-pink-50 ">
-    <div class="flex items-center  justify-around">
-        <!-- nav-icon -->
+    <div>
+      <div class="flex items-center  justify-between">
+        <!-- nav icon -->
         <div>
-            <img src="c2-assets/logo-header.png" alt="" class="border-4 border-dashed border-white-300 ">
+          <img src="c2-assets/logo-header.png" alt="" class="border-4 border-dashed border-white-300 ">
         </div>
-        <!-- nav-link -->
+        <!--nav link  -->
         <div>
-            <ul class="flex gap-8">
-                <li><a href="">Product</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Contact us</a></li>
-            </ul>
+          <ul class=" lg:flex gap-8 hidden">
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
         </div>
         <!-- nav-button -->
-        
-        <div class=" flex gap-2 items-center ">
-          <i class="fa-solid fa-magnifying-glass"></i > <br>
+
+        <div class="lg:flex gap-2 items-center hidden">
+          <i class="fa-solid fa-magnifying-glass"></i> <br>
           <i class="fa-solid fa-cart-shopping"></i>
           <br>
           <button class=" border border-solid border-green-500 rounded-lg py-2.5 px-7  ">Login</button>
           <button class=" bg-green-500 text-white py-2.5 px-7 rounded-lg ">Register</button>
         </div>
-    </div>
-    <section class="py-8 lg:py-24">
-    <!-- banner  -->
-     <!-- banner-content -->
-     <div class="text-center"> 
-      <h1 class="text-5xl font-semibold mb-8 ">Freshness <span class="text-green-500 " >You Can <br>
-        Count</span> On, Prices You’ll Love!</h1>
-        <p class="font-normal text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
-     </div>
-     <!-- banner-image -->
-      <div>
-        <img src="c2-assets/hero-vegetables.png" alt="">
+        <div class="lg:hidden text-3xl text-green-400">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      
       </div>
-    </section>
+      
+    
+  </header>
+  <section class="py-8 lg:py-24 bg-gradient-to-r from-white to-pink-50 ">
+
+    <!-- banner  -->
+    <!-- banner-content -->
+    <div class="text-center">
+      <h1 class="text-5xl font-semibold mb-8 ">Freshness <span class="text-green-500 ">You Can <br>
+          Count</span> On, Prices You’ll Love!</h1>
+      <p class="font-normal text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>
+        staples, we’ve got you covered every day!</p>
+    </div>
+    <!-- banner-image -->
+
+
+    <div>
+      <img src="c2-assets/hero-vegetables.png" alt="">
+    </div>
+    <main class="max-w-screen-xl mx-auto ">
+  </section>
   </div>
   <!-- card -->
-   <section>
-    <h3 class="text-green-500 font-semibold text-4xl mt-32 mb-8">Services</h3>
+  <section class="">
+    <h3 class="text-green-500 font-semibold text-4xl lg:text-4xl mt-32 mb-8">Services</h3>
+    <!-- card-container -->
     <!-- card-1 -->
-     <!-- card-container -->
-      <div class="flex gap-8 ">
-    <div class="rounded-lg shadow-md overflow-hidden bg-pink-50">
-      <img src="c2-assets/service.png" alt="">
-      <h3 class="font-semibold text-2xl">24/7 Services </h3>
-      <p class="font-light text-xl">refers to a customer service option where you can interact with a company or representative through text messages, allowing you to ask questions, get updates, or resolve issues via SMS on your phone, instead of calling or using a website chat feature; essentially, it's "text-based customer service</p>
-    </div>
-    <!-- card-2 -->
-     <div class="rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
-      <img src="c2-assets/delivery.png" alt="">
-      <h3 class="font-semibold text-2xl">Fast Delivery</h3>
-      <p class="font-light text-xl">There are many reasons why SMS delivery notifications should be used. Customers want to know what's going on with their delivery. Customers want to know that the delivery person was sent out in a timely manner and that they can expect the delivery to arrive on time.</p>
-     </div>
-     <!-- card-3 -->
-      <div class="rounded-lg shadow-md overflow-hidden bg-pink-50" >
-        <img src="c2-assets/healthy.png" alt="">
-        <h3 class="font-semibold text-2xl">Healthy Products </h3>
-        <p class="font-light text-xl">Health is not just the absence of disease, it's a state of complete physical, mental, and social well-being, achieved through a balanced lifestyle that includes nutritious food, regular exercise, quality sleep, and managing stress</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+      <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
+        <div class="avatar">
+          <div class="w-24 h-24
+          p-4 rounded-full bg-white">
+            <img src="c2-assets/service.png" alt="" class="">
+          </div>
+        </div>
+        <h3 class="font-semibold text-2xl pt-4">24/7 Services </h3>
+        <p class="font-light text-xl pt-2">refers to a customer service option where you can interact with a company or
+         
+        </p>
+      </div>
+      <!-- card-2 -->
+      <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
+        <div class="avatar">
+          <div class="w-24 h-24 p-4 rounded-full bg-white">
+            <img src="c2-assets/delivery.png" alt="" class="">
+          </div>
+        </div>
+
+        <h3 class="font-semibold text-2xl pt-4">Fast Delivery</h3>
+        <p class="font-light text-xl pt-2">There are many reasons why SMS delivery notifications should be used. Customers
+         </p>
+      </div>
+      <!-- card-3 -->
+      <div class=" p-8 rounded-lg shadow-md overflow-hidden bg-pink-50 text-center">
+        <div class="avatar">
+          <div class="w-24 h-24 p-4 rounded-full bg-white">
+            <img src="c2-assets/healthy.png" alt="">
+          </div>
+        </div>
+        <h3 class="font-semibold text-2xl pt-4">Healthy Products </h3>
+        <p class="font-light text-xl pt-2">Health is not just the absence of disease, it's a state of complete physical,
+         </p>
       </div>
     </div>
-   </section>
+  </section>
+  <!-- products section -->
+  <section class=" mb-24 grid grid-cols-1 ">
+    <h1 class="text-green-500 font-semibold text-3xl mt-32 mb-8">Popular Products</h1>
+    <div class="bg-gradient-to-r from-green-500 to-white rounded-lg shadow-md overflow-hidden ">
+      <div class="pl-8 pt-12">
+        <h2 class="text-white text-xl ">30% off</h2><br>
+        <p class="text-sm">Discover a world of treats,toys and <br> essentials handpicked for </p><br>
+        <button class=" bg-white py-2.5 px-7 rounded-lg ">Buy Now</button>
+      </div>
+      <div>
+        <img src="c2-assets/vegetable-offer.png" alt="" class="">
+      </div>
+    </div>
+    <!-- products card section -->
+    <div>
+      <!--  card img -->
+      <div>
+        <img src="c2-assets/image 43.png" alt="">
+      </div>
+      <!-- card-icon -->
+      <div>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <!-- card text -->
+      <div>
+        <h3>4.5</h3>
+        <p>Onion 1 KG</p>
+        <h4>$39.99</h4>
+      </div>
+    </div>
+  </section>
+
   </main>
+  <!-- footer section -->
+  <footer>
+
+
+    <footer class="footer bg-green-500 text-white p-10">
+      <nav>
+        <img src="c2-assets/logo-footer.png" alt="">
+        <p class="text-2xl font-normal">Discover a world of treats, toys, and essentials handpicked for your furry
+          friends</p>
+      </nav>
+      <nav>
+        <h6 class="">products</h6>
+        <a class="">services</a>
+        <a class="">Contact us</a>
+      </nav>
+      <nav>
+        <h5 class="">Follow us</h5>
+        <img src="c2-assets/" alt="">
+        <div class="grid grid-flow-col gap-4">
+          <a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+              <path
+                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+              </path>
+            </svg>
+          </a>
+          <a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+              </path>
+            </svg>
+          </a>
+          <a>
+            <svg>
+
+
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="fill-current">
+              <path
+                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </footer>
+  </footer>
 </body>
+
 </html>
